@@ -1,6 +1,8 @@
-title : Content name
+title : File and directory management in Unix Systems
 plan:
-  - title: Part 1
+  - title: File and directory management in Unix Systems
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+projects:
+  webconsole:
+    root: work
+    runner: nantoniazzi/shellinabox:latest
