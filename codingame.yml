@@ -1,4 +1,4 @@
-title : File and directory management in Unix Systems
+title : File and directory management with Unix
 plan:
   - title: File and directory management in Unix Systems
     statement: markdowns/part1.md
