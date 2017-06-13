@@ -5,4 +5,4 @@ plan:
 projects:
   webconsole:
     root: work
-    runner: nantoniazzi/shellinabox:latest
+    runner: ubuntu:latest
