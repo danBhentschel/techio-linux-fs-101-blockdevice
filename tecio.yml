@@ -6,4 +6,4 @@ plan:
 projects:
   webconsole:
     root: work
-    runner: ubuntu:latest
+    runner: ubuntu:17.04
