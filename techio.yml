@@ -6,4 +6,4 @@ plan:
 projects:
   webconsole:
     root: work
-    runner: danbhentschel/techio-qemu:1.1
+    runner: danbhentschel/techio-qemu:1.2
