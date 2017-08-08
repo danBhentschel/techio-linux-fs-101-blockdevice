@@ -1,5 +1,5 @@
 # Discovering block devices
-The block devices on a system can be discovered with the `lsblk` command. Try it in the VM to the right. Type `lsblk` at the command prompt and then press Enter.
+The block devices on a system can be discovered with the `lsblk` command. Try it in the VM below. Type `lsblk` at the command prompt and then press Enter.
 
 > **NOTE:** Start the VM by clicking **RUN**. Wait for it to boot up. It might take a while. Once it boots, you can login with the username _techio_. There is no password needed. The VM will only run for 10 minutes. You can restart it by clicking **RUN** again if you go over the 10 minute limit.
 
