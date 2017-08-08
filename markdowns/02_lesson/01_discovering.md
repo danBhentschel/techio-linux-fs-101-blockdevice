@@ -13,6 +13,7 @@ sda      8:0    0  1.3G  0 disk
 sdb      8:16   0    3M  0 disk
 └─sdb1   8:17   0    3M  0 part /scripts
 sr0     11:0    1 1024M  0 rom
+```
 
 There are three different kinds of devices represented here, indicated by the first 2 characters in the device name:
 
