@@ -25,7 +25,7 @@ There are three different kinds of devices represented here, indicated by the fi
 
 We will be focusing on the hard disk devices, `sda` and `sdb`, for this course.
 
-Do you see the `sda1` and `sdb1` devices in the list? They are **partitions** of the `sda` and `sdb` disks. A disk partition is a portion of the drive that is set aside for a specific use. In the case of `sda`, the `sda1` partition uses 1.3 GiB of the 2.0 GiB drive. So there is approximately 700 MiB of unused space on `sda`. There is no free space on `sdb`. The `sdb1` partition uses all 3 MiB of that drive.
+Do you see the `sda1` and `sdb1` devices in the list? They are **partitions** of the `sda` and `sdb` disks. A disk partition is a portion of the drive that is set aside for a specific use. In the case of `sda`, the `sda1` partition uses 1.3 GiB of the 2.0 GiB drive. So there is approximately 600 MiB of unused space on `sda`. There is no free space on `sdb`. The `sdb1` partition uses all 3 MiB of that drive.
 
 Notice that `sda1` is mounted on `/` (the filesystem root). Unless you have changed directories, the command prompt should be in the `/home/techio` directory. You can verify this with the `pwd` (print working directory) command. Try typing the following `df` (file system disk space usage) command:
 
