@@ -6,4 +6,4 @@ plan:
 projects:
   webconsole:
     root: work
-    runner: ubuntu:17.04
+    runner: danbhentschel/techio-qemu:1.1
