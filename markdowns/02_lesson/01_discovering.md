@@ -33,7 +33,7 @@ Notice that `sda1` is mounted on `/` (the filesystem root). Unless you have chan
 df -h .
 ```
 
-> **NOTE:** The `-h` flag tells the `df` command to print byte counts in "human readable" format, i.e. `1.1G` vs. `1099744`. The `.` (period) at the end of the command indicates that we're only interested in disk usage for the current directory.
+> **NOTE:** The `-h` flag tells the `df` command to print byte counts in "human readable" format, i.e. `1.2G` vs. `1220172`. The `.` (period) at the end of the command indicates that we're only interested in disk usage for the current directory.
 
 You should see the following:
 
@@ -50,4 +50,4 @@ We can also see that the filesystem in `sda1` is about **93%** full; 1.2 GiB are
 dd if=/dev/zero of=junk bs=1M count=50
 ```
 
-This will create a 50 MiB file called `junk` in the current directory. What do you think this will do to the available space in the filesystem? Try running the `df` command again to check your hypothesis.
+This will create a 50 MiB file called `junk` in the current directory. What do you think this will do to the available space in the filesystem? Try running the `df` command again to check your hypothesis. Try removing the file with `rm junk`, then run the `df` command again.
