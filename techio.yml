@@ -1,4 +1,4 @@
-title : File and directory management with Unix
+title : Linux block devices
 plan:
   - title: File and directory management in Unix Systems
     statement: markdowns/part1.md
