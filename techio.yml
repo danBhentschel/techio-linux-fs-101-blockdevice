@@ -1,9 +1,9 @@
 title : Linux block devices
 plan:
-  - title: File and directory management in Unix Systems
-    statement: markdowns/part1.md
+  - title: Partitioning and formatting block devices
+    statement: markdowns/02_lesson/01_discovering.md
 
 projects:
   webconsole:
     root: work
-    runner: danbhentschel/techio-qemu:1.3
+    runner: danbhentschel/techio-qemu:1.4
