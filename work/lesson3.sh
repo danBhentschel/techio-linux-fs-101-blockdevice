@@ -11,7 +11,7 @@ p
 
 
 w
-"|fdisk /ubuntu.img
+"|fdisk /ubuntu.img &>/dev/null
 
 echo "TECHIO> terminal --init /start_vm.sh"
 
