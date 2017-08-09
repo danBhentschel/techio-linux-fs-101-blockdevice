@@ -19,8 +19,8 @@ sr0     11:0    1 1024M  0 rom
 
 There are three different kinds of devices represented here, indicated by the first 2 characters in the device name:
 
- - **fd** - A floppy drive
- - **sd** - A hard disk (originally SCSI, but now includes SATA, SAS, and others)
+ - **fd** - A floppy drive (Yeah, yeah... Comes with the VM. Just ignore it.)
+ - **sd** - A hard disk (Originally SCSI, but now includes SATA, SAS, and others.)
  - **sr** - An optical drive
 
 We will be focusing on the hard disk devices, `sda` and `sdb`, for this course.

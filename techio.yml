@@ -1,7 +1,9 @@
-title : Linux block devices
+title : Linux Filesystems 101 - Block Devices
 plan:
-  - title: Partitioning and formatting block devices
+  - title: Discovering block devices
     statement: markdowns/02_lesson/01_discovering.md
+  - title: Partitioning block devices
+    statement: markdowns/02_lesson/02_partitioning.md
 
 projects:
   webconsole:
