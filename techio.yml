@@ -6,6 +6,8 @@ plan:
     statement: markdowns/02_lesson/02_partitioning.md
   - title: Formatting a partition
     statement: markdowns/02_lesson/03_formatting.md
+  - title: Mounting a partition
+    statement: markdowns/02_lesson/04_mounting.md
 
 projects:
   webconsole:
