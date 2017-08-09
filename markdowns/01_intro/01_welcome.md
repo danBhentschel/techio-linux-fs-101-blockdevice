@@ -1,6 +1,6 @@
 # Linux Filesystems 101 - Block Devices
 
-Welcome to the first course in the **Linux Filesystems** series. This first course introduces basic block device management concepts.
+Welcome to the first course in the **Linux Filesystems** series. The **101** course introduces basic block device management concepts.
 
 ## Who Will the Course Benefit?
  - Linux users looking to improve their understanding of how the filesystem is handled in the OS
