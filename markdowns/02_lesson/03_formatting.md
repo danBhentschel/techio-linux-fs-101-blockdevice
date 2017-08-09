@@ -35,7 +35,15 @@ df -h .
 
 There should be 545 MiB of free space. Wow. We lost a lot of that 614 MiB to the formatting, didn't we? The filesystem elements (superblock, inode and block bitmaps and tables, journal, etc.) take up a nontrivial amount of space. Keep this in mind when planning out your filesystem needs.
 
-Can you write to the filesystem? Try it:
+Can you write to the filesystem? Try it. First, you will need to give the `techio` user write permissions on the directory. Execute this:
+
+```
+sudo chmod ugo+w /mnt
+```
+
+(Change file mode for user, group, and others... add write permissions to /mnt)
+
+Now, do the following:
 
 ```
 echo "Hello, World!" > /mnt/hello.txt
@@ -51,4 +59,13 @@ ls -lh /mnt
 df -h /mnt
 ```
 
-After writing the 100 MiB file, `df` should now report only 445 MiB of free space.
+After writing the 100 MiB file, `df` should now report only 445 MiB of free space. Remember I mentioned that `/mnt` is only intended for temporary mounts? Let's clean up after ourselves and unmount that directory:
+
+```
+sudo umount /mnt
+ls -lh /mnt
+df -h /mnt
+lsblk
+```
+
+After executing the `umount` command, the other three commands should give you varying bits of evidence indicating that `sda2` is no longer mounted on `/mnt`.
