@@ -62,6 +62,7 @@ df -h /mnt
 After writing the 100 MiB file, `df` should now report only 445 MiB of free space. Remember I mentioned that `/mnt` is only intended for temporary mounts? Let's clean up after ourselves and unmount that directory:
 
 ```
+cd
 sudo umount /mnt
 ls -lh /mnt
 df -h /mnt

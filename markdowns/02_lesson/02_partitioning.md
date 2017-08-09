@@ -23,6 +23,8 @@ Created a new partition 2 of type 'Linux' and of size 614 MiB.
 
 To see your new partition, use the `p` command again to print the partition table. The partition you just created is listed as /dev/sda2. When you are done admiring your handiwork, type `w` (for write) and press Enter. This will exit the `fdisk` utility.
 
+> **NOTE:** The `fdisk` utility reads and writes MBR-style partition tables. This is an older technology that is slowly being phased out and replaced with the GPT partitioning scheme. We'll discuss this in more detail in another course (link TBD). For now, let's stick with MBR.
+
 Before exiting, `fdisk` informs you that the new partition isn't visible to the OS yet. You can verify this with `lsblk`. Let's make it visible. Execute the following command:
 
 ```
