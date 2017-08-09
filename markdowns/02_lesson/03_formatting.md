@@ -25,12 +25,10 @@ sudo mkfs.ext4 /dev/sda2
 
 > **NOTE:** The EXT4 filesystem is currently the most commonly used filesystem across all Linux distributions. We will talk more about EXT4 in another course. (Link TBD)
 
-Assuming that all went well, your `sda2` partition should now be formatted with EXT4. Let's try that mount command again. If you get no error then it was probably successful. Check the result with the `lsblk` command. Do you see a mountpoint for `sda2` now?
-
-Switch directories into our new filesystem by executing `cd /mnt` and then check the disk space:
+Assuming that all went well, your `sda2` partition should now be formatted with EXT4. Let's try that mount command again. If you get no error then it was probably successful. Check the result with the `lsblk` command. Do you see a mountpoint for `sda2` now? Let's check the disk space:
 
 ```
-df -h .
+df -h /mnt
 ```
 
 There should be 545 MiB of free space. Wow. We lost a lot of that 614 MiB to the formatting, didn't we? The filesystem elements (superblock, inode and block bitmaps and tables, journal, etc.) take up a nontrivial amount of space. Keep this in mind when planning out your filesystem needs.
@@ -43,10 +41,10 @@ sudo chmod ugo+w /mnt
 
 (Change file mode for user, group, and others... add write permissions to /mnt)
 
-Now, do the following:
+Now, do the following commands:
 
 ```
-echo "Hello, World!" > /mnt/hello.txt
+echo Hello, World! > /mnt/hello.txt
 ls -lh /mnt
 cat /mnt/hello.txt
 ```
@@ -62,7 +60,6 @@ df -h /mnt
 After writing the 100 MiB file, `df` should now report only 445 MiB of free space. Remember I mentioned that `/mnt` is only intended for temporary mounts? Let's clean up after ourselves and unmount that directory:
 
 ```
-cd
 sudo umount /mnt
 ls -lh /mnt
 df -h /mnt
