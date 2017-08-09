@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo
+echo Preparing lesson...
+echo
+echo
+
 ln -s /vmlinuz-4.4.0-89-generic
 ln -s /initrd.img-4.4.0-89-generic
 ln -s /ubuntu.img

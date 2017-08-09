@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "TECHIO> terminal --init /start_lesson4.sh"
+echo "TECHIO> terminal --init /project/target/start_lesson4.sh"
 
 while true; do
     sleep 10
