@@ -18,6 +18,13 @@ plan:
       statement: markdowns/02_lesson/03_formatting.md
     - title: "Mounting a partition"
       statement: markdowns/02_lesson/04_mounting.md
+  - title: "Final Words"
+    description: "Review and further study"
+    plan:
+    - title: "Review"
+      statement: markdowns/03_end/01_review.md
+    - title: "What next"
+      statement: markdowns/03_end/02_next.md
 
 projects:
   webconsole:
