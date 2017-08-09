@@ -1,7 +1,7 @@
 # Formatting a partition
 In the last lesson we created a new 614 MiB partition on `sda`. Let's double-check that it's still there. Type the `lsblk` command.
 
-@[Start the VM]({"command":"/bin/bash /project/target/lesson3.sh"})
+@[Start the VM]({"command":"/bin/bash /project/target/lesson4.sh"})
 
 
 See that `sda2` partition? Notice that it's not mounted anywhere. The **MOUNTPOINT** column is empty. Let's try mounting it. By default, Linux has a `/mnt` directory specifically for use in mounting filesystems temporarily. Type the following command:
