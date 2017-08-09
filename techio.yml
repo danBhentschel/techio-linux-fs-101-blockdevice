@@ -4,6 +4,8 @@ plan:
     statement: markdowns/02_lesson/01_discovering.md
   - title: Partitioning block devices
     statement: markdowns/02_lesson/02_partitioning.md
+  - title: Formatting a partition
+    statement: markdowns/02_lesson/03_formatting.md
 
 projects:
   webconsole:

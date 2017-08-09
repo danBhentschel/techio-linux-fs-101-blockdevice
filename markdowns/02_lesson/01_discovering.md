@@ -3,7 +3,7 @@ The block devices on a system can be discovered with the `lsblk` (list block dev
 
 > **NOTE:** Start the VM by clicking **RUN**. Wait for it to boot up. It might take a while. Once it boots, you can login with the username _techio_. There is no password needed. The VM will only run for 10 minutes. You can restart it by clicking **RUN** again if you go over the 10 minute limit.
 
-@[Start the VM]({"command":"/bin/bash /project/target/launch.sh"})
+@[Start the VM]({"command":"/bin/bash /project/target/lesson1.sh"})
 
 The `lsblk` command should give you the following output:
 
