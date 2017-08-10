@@ -7,6 +7,8 @@ plan:
       statement: markdowns/01_intro/01_welcome.md
     - title: "About Block Devices"
       statement: markdowns/01_intro/02_about.md
+    - title: "Using the VM"
+      statement: markdowns/01_intro/03_vm.md
   - title: "Block Devices"
     description: "Course content"
     plan:
