@@ -19,18 +19,25 @@ while [ $count -lt ${#Command[@]} ]; do
     else
         hist_cmd=""
     fi
-    if [ "$last_cmd" != "$hist_cmd" ]; then
-        last_cmd="$hist_cmd"
-        if [ "$hist_cmd" == "${Command[$count]}" ]; then
-            echo
-            if [ -n "${Comment[$count]}" ]; then
-                echo " ==> ${Comment[$count]} <=="
+    if [ "$hist_cmd" == "do_it" ]; then
+        /scripts/ttyecho -n /dev/ttyS0 "${Command[$count]}"
+        count=$(( $count + 1 ))
+    else
+        if [ "$last_cmd" != "$hist_cmd" ]; then
+            last_cmd="$hist_cmd"
+            if [ "$hist_cmd" == "${Command[$count]}" ]; then
+                echo
+                if [ -n "${Comment[$count]}" ]; then
+                    echo " ==> ${Comment[$count]} <=="
+                fi
+                count=$(( $count + 1 ))
+                if [ $count -lt ${#Command[@]} ]; then
+                    echo " ==> Next command: ${Command[$count]} <=="
+                else
+                    echo " ==> You have reached the end of this lesson <=="
+                fi
+                /scripts/ttyecho -n /dev/ttyS0 ""
             fi
-            count=$(( $count + 1 ))
-            if [ $count -lt ${#Command[@]} ]; then
-                echo " ==> Next command: ${Command[$count]} <=="
-            fi
-            /scripts/ttyecho -n /dev/ttyS0 ""
         fi
     fi
     sleep 0.1
