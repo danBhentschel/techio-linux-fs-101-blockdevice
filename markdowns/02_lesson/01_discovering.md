@@ -1,7 +1,7 @@
 # Discovering block devices
 The block devices on a system can be discovered with the `lsblk` (list block devices) command. Try it in the VM below. Type `lsblk` at the command prompt and then press Enter.
 
-@[Start the VM]({"command":"/bin/bash /project/target/lesson1.sh"})
+@[Start the VM]({"command":"/bin/bash -c '/project/target/lesson.sh 1'"})
 
 The `lsblk` command should give you the following output:
 

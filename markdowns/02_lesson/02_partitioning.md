@@ -7,7 +7,7 @@ sudo fdisk -l /dev/sda
 
 > **NOTE:** The `sudo` at the beginning of the command causes the command to be executed with the super user (root) account. Try running the `fdisk` command without `sudo`. What happens? The `/dev/sda` file is crucial for system operation. It holds the enitre operating system. It would be a severe security risk if a non-privleged account could access this file.
 
-@[Start the VM]({"command":"/bin/bash /project/target/lesson2.sh"})
+@[Start the VM]({"command":"/bin/bash -c '/project/target/lesson.sh 2'"})
 
 The output of `fdisk` gives us some new information about our `sda` disk. It confirms that it is, indeed, a 2 GiB device, and it tells us that it is comprised of 4,194,304 sectors, each of which is 512 bytes (0.5 KiB) in size. It also tells us that the first partition, `/dev/sda1` is 2,933,965 sectors in size, from sector 2,048 to sector 2,936,012.
 

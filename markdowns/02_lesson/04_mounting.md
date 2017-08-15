@@ -5,7 +5,7 @@ We've already seen a way to mount a partition temporarily ont `/mnt`. How would 
 sudo mount /dev/sda2 /wolf
 ```
 
-@[Start the VM]({"command":"/bin/bash /project/target/lesson4.sh"})
+@[Start the VM]({"command":"/bin/bash -c '/project/target/lesson.sh 4'"})
 
 To make sure it worked properly, check with `lsblk`. That was easy, right? Well, there's a catch. That mount will only last until the next reboot of the system. To check this, try rebooting now:
 
