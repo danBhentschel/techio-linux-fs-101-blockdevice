@@ -1,0 +1,6 @@
+Command[0]="sudo mount /dev/sda2 /wolf"
+Comment[0]="Check and see if it mounted properly"
+Command[1]="lsblk"
+Comment[1]="Looks good"
+Command[2]="sudo reboot"
+Comment[2]=""
