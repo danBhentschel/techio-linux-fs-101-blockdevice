@@ -19,11 +19,10 @@ while [ $count -lt ${#Command[@]} ]; do
     else
         hist_cmd=""
     fi
-    if [ "$hist_cmd" == "do_it" ]; then
-        /scripts/ttyecho -n /dev/ttyS0 "${Command[$count]}"
-        sleep 2
-    else
-        if [ "$last_cmd" != "$hist_cmd" ]; then
+    if [ "$last_cmd" != "$hist_cmd" ]; then
+        if [ "$hist_cmd" == "do_it" ]; then
+            /scripts/ttyecho -n /dev/ttyS0 "${Command[$count]}"
+        else
             last_cmd="$hist_cmd"
             if [ "$hist_cmd" == "${Command[$count]}" ]; then
                 echo
