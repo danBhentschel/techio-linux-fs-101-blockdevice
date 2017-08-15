@@ -20,10 +20,10 @@ while [ $count -lt ${#Command[@]} ]; do
         hist_cmd=""
     fi
     if [ "$last_cmd" != "$hist_cmd" ]; then
+        last_cmd="$hist_cmd"
         if [ "$hist_cmd" == "do_it" ]; then
             /scripts/ttyecho -n /dev/ttyS0 "${Command[$count]}"
         else
-            last_cmd="$hist_cmd"
             if [ "$hist_cmd" == "${Command[$count]}" ]; then
                 echo
                 if [ -n "${Comment[$count]}" ]; then
