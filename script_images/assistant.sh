@@ -22,6 +22,7 @@ while [ $count -lt ${#Command[@]} ]; do
     if [ "$hist_cmd" == "do_it" ]; then
         /scripts/ttyecho -n /dev/ttyS0 "${Command[$count]}"
         count=$(( $count + 1 ))
+        sleep 2
     else
         if [ "$last_cmd" != "$hist_cmd" ]; then
             last_cmd="$hist_cmd"
