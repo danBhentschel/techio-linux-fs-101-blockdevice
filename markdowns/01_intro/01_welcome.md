@@ -19,7 +19,7 @@ Students should have some basic understanding of navigating a Unix-like director
 Beginner
 
 ## Estimated time
-TBD
+About 45 minutes
 
 ## GitHub Repository
 This course is stored in a GitHub repository. You can see how the course was created, and if you have any recommendations for improvement, feel free to fork the repository and create a pull request!
@@ -27,7 +27,7 @@ This course is stored in a GitHub repository. You can see how the course was cre
 [techio-linux-fs-01-blockdevice](https://github.com/danBhentschel/techio-linux-fs-01-blockdevice)
 
 ## Current Course Version
-0.1
+1.0
 
 ## Course Revision History
-N/A
+2017-08-16 - Published
