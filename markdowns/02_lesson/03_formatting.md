@@ -25,7 +25,7 @@ sudo mkfs.ext4 /dev/sda2
 
 > **NOTE:** The EXT4 filesystem is currently the most commonly used filesystem across all Linux distributions. We will talk more about EXT4 in another course. (Link TBD)
 
-Assuming that all went well, your `sda2` partition should now be formatted with EXT4. Let's try that mount command again. If you get no error then it was probably successful. Check the result with the `lsblk` command. Do you see a mountpoint for `sda2` now? Let's check the disk space:
+This command should output information about the filesystem created. It will tell you about blocks and inodes, UUID, superblock, etc. For now you can ignore this info. At this point, your `sda2` partition is formatted with EXT4. Let's try that mount command again. If you get no error then it was probably successful. Check the result with the `lsblk` command. Do you see a mountpoint for `sda2` now? Let's check the disk space:
 
 ```
 df -h /mnt

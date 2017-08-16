@@ -10,7 +10,7 @@ Here are some other resources you can use to reinforce the information covered i
 
 The best way to learn about Linux filesystems is to experiment with an actual machine. Luckily Linux doesn't need very new or fast hardware to run well. If you have an old PC or laptop lying around collecting dust, this would be a good candidate for installing Linux for experimentation purposes.
 
-The VMs in this course use stock Ubuntu version 16.04. If you're experimenting with older hardware, you might want to consider either the [Lubuntu](http://lubuntu.net/) or [Xubuntu](https://xubuntu.org/) flavors of Ubuntu.
+The VMs in this course use stock Ubuntu version 16.04. If you're experimenting with older hardware, you might want to consider using either the [Lubuntu](http://lubuntu.net/) or [Xubuntu](https://xubuntu.org/) flavors of Ubuntu.
 
 ### VirtualBox
 
@@ -24,7 +24,7 @@ If you don't have extra hardware lying around to play with, running Linux in a V
 
 ### Manpages
 
-Almost all Linux commands have well maintained documentation built right into the operating system. This information is called the Linux manual, and can be accessed from a linux command line via the `man` command. For example:
+Almost all Linux commands have well maintained documentation built right into the operating system. This information is called the Linux manpages (manual) and can be accessed from a command line via the `man` command. For example:
 
 ```
 man fdisk
@@ -38,7 +38,7 @@ Here are some resources to expand your knowledge of Linux filesystems. They buil
 
 ### Future Tech.io courses
 
-Okay. I haven't written the next course in this series yet. But I have great plans! Keep your eyes open for **Linux Filesystems 102 - Disk Partitions**. (Link TBD)
+Okay. I haven't written the next course in this series yet. But I have big plans! Keep your eyes open for **Linux Filesystems 102 - Disk Partitions**. (Link TBD)
 
 ### Linux Advanced File System Management (Pluralsight)
 

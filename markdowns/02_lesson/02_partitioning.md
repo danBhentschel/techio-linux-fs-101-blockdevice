@@ -9,7 +9,21 @@ sudo fdisk -l /dev/sda
 
 @[Start the VM]({"command":"/bin/bash -c '/project/target/lesson.sh 2'"})
 
-The output of `fdisk` gives us some new information about our `sda` disk. It confirms that it is, indeed, a 2 GiB device, and it tells us that it is comprised of 4,194,304 sectors, each of which is 512 bytes (0.5 KiB) in size. It also tells us that the first partition, `/dev/sda1` is 2,933,965 sectors in size, from sector 2,048 to sector 2,936,012.
+The output of `fdisk` looks like this:
+
+```
+Disk /dev/sda: 2 GiB, 2147483648 bytes, 4194304 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8c44efc8
+
+Device     Boot Start     End Sectors  Size Id Type
+/dev/sda1        2048 2936012 2933965  1.4G 83 Linux
+```
+
+This gives us some new information about our `sda` disk. It confirms that it is, indeed, a 2 GiB device, and it tells us that it is comprised of 4,194,304 sectors, each of which is 512 bytes (0.5 KiB) in size. It also tells us that the first partition, `/dev/sda1` is 2,933,965 sectors in size, from sector 2,048 to sector 2,936,012.
 
 Let's try creating a new partition after this one. Type `sudo fdisk /dev/sda`. This will start up the `fdisk` utility, and provides you with a prompt for a command.
 

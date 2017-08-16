@@ -21,7 +21,7 @@ There are three different kinds of devices represented here, indicated by the fi
  - **sd** - A hard disk (Originally SCSI, but now includes SATA, SAS, and others.)
  - **sr** - An optical drive
 
-We will be focusing on hard disk devices, in this case `sda` and `sdb`, for this course.
+We will be focusing on hard disk devices, in this case the`sda` and `sdb` devices, for this course.
 
 Do you see the `sda1` and `sdb1` devices in the list? They are **partitions** of the `sda` and `sdb` disks. A disk partition is a portion of the drive that is set aside for a specific use. In the case of `sda`, the `sda1` partition uses 1.4 GiB of the 2.0 GiB drive. So there is approximately 600 MiB of unused space on `sda`. There is no free space on `sdb`. The `sdb1` partition uses all 3 MiB of that drive.
 

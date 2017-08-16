@@ -22,7 +22,7 @@ Beginner
 TBD
 
 ## GitHub Repository
-This course is stored in a GitHub repository. You can see how the course was created and if you have any recommendations for improvement, feel free to fork the repository and create a pull request!
+This course is stored in a GitHub repository. You can see how the course was created, and if you have any recommendations for improvement, feel free to fork the repository and create a pull request!
 
 [techio-linux-fs-01-blockdevice](https://github.com/danBhentschel/techio-linux-fs-01-blockdevice)
 

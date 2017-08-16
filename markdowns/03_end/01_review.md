@@ -6,7 +6,7 @@ Here is a quick review of what you have learned:
 
 ## What is a block device?
 
-A block device is a piece of hardware that provides data access in blocks. It is typically used to describe a device that provides persistent data storage such as a hard drive or an SSD.
+A block device is a piece of hardware that provides data access in blocks. The term "block device" is typically used to refer to a device that provides persistent data storage such as a hard drive or an SSD.
 
 ## Discovering block devices
 
@@ -16,7 +16,7 @@ You can get information about free and used disk space with the `df -h <director
 
 ## Creating a partition
 
-You can examine partition information and create new partitions with the `fdisk` command. You can refresh the partition information of a device with the `partprobe` command. Commands that modify block devices must be run under the `sudo` command.
+You can examine partition information and create new partitions with the `fdisk` command. You can refresh the partition information of a device with the `partprobe` command. Commands that modify block devices must be run via the `sudo` command.
 
 Future courses will contain more detailed information about partitioning block devices. (Link TBD)
 
