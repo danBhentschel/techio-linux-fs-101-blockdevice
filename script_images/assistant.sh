@@ -41,3 +41,8 @@ while [ $count -lt ${#Command[@]} ]; do
     fi
     sleep 0.1
 done
+
+
+while true; do
+    sleep 30
+done
