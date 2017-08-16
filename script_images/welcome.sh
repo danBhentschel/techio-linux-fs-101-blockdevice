@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -e /home/techio/.assistant_away ]; then
+    exit
+fi
+
 if [ "$1" == "back" ]; then
     echo
     echo *************

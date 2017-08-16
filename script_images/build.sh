@@ -16,7 +16,9 @@ mk_image() {
     cp assistant_commands.sh tmp
     cp cmd_list_${1}* tmp
     cp lesson${1}.sh tmp/lesson.sh
-    cp ttyecho tmp
+    if compgen -G "lesson${1}_*.sh" > /dev/null; then
+        cp lesson${1}_*.sh tmp
+    fi
     rm -f ../work/lesson${1}.img
     ./make_image.sh ../work/lesson${1}.img tmp/*
     rm -rf tmp
