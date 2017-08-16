@@ -18,13 +18,13 @@ You can get information about free and used disk space with the `df -h <director
 
 You can examine partition information and create new partitions with the `fdisk` command. You can refresh the partition information of a device with the `partprobe` command. Commands that modify block devices must be run under the `sudo` command.
 
-Future courses will contain more detailed information about partitioning block devices.
+Future courses will contain more detailed information about partitioning block devices. (Link TBD)
 
 ## Formatting a partition
 
 You can format a partition with the EXT4 filesystem using the `mkfs.ext4` command. You can then mount this filesystem using the `mount` command. The directory `/mnt` is often provided as a convenient location to temporarily mount a filesystem.
 
-Future courses will contain more detailed information about EXT4 and other Linux filesystem options.
+Future courses will contain more detailed information about EXT4 and other Linux filesystem options. (Link TBD)
 
 ## Permanently mounting a filesystem
 
