@@ -1,4 +1,4 @@
-# Mounting a partition
+# Permanently mounting a filesystem
 We've already seen a way to mount a partition temporarily ont `/mnt`. How would we make a permanent mount? First, we need a place in the directory structure for our new filesystem to live. For this exercise, let's mount it under `/wolf`. The directory has already been created for us. Go ahead and mount `sda2` on `/wolf` with the command:
 
 ```

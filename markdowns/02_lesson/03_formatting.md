@@ -17,7 +17,7 @@ mount: wrong fs type, bad option, bad superblock on /dev/sda2,
        missing codepage or helper program, or other error
 ```
 
-That's because the `sda2` partition hasn't been formatted yet. There's no filesystem on it. It's just a bunch of random data. Let's format it with the EXT4 filesystem. Type this command:
+That's because the `sda2` partition hasn't been formatted yet. There's no filesystem on it. It's just a bunch of random data. Let's format it with the EXT4 filesystem. In Linux, the command to format a device is `mkfs` (make filesystem). Type this command:
 
 ```
 sudo mkfs.ext4 /dev/sda2
