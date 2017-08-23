@@ -30,5 +30,5 @@ This course is stored in a GitHub repository. You can see how the course was cre
 1.1
 
 ## Course Revision History
-2017-08-23 - Migrated to GitHub
+2017-08-23 - Migrated to GitHub<br />
 2017-08-16 - Published
