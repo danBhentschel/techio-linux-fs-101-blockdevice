@@ -24,10 +24,11 @@ About 45 minutes
 ## GitHub Repository
 This course is stored in a GitHub repository. You can see how the course was created, and if you have any recommendations for improvement, feel free to fork the repository and create a pull request!
 
-[techio-linux-fs-01-blockdevice](https://github.com/danBhentschel/techio-linux-fs-01-blockdevice)
+[playground-z0FD03fI](https://github.com/danBhentschel/playground-z0FD03fI)
 
 ## Current Course Version
-1.0
+1.1
 
 ## Course Revision History
+2017-08-23 - Migrated to GitHub
 2017-08-16 - Published
