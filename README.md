@@ -1,4 +1,4 @@
-# techio-linux-fs-01-blockdevice
+# techio-linux-fs-101-blockdevice
 A lesson on Linux block devices, for the tech.io learning platform. It is hosted at
 [Linux Filesystems 101 - Block Devices](https://tech.io/playgrounds/2135).
 
