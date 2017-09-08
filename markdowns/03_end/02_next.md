@@ -45,3 +45,7 @@ Okay. I haven't written the next course in this series yet. But I have big plans
 Pluralsight is an excellent online training site. It offers a large number of courses on a wide variety of topics, presented by very knowledgeable experts. Pluralsight is a paid resource, but it is well worth the money if you are serious about a career in technology.
 
 The [Linux Advanced File System Management](https://app.pluralsight.com/library/courses/linux-advanced-file-system-management/table-of-contents) Pluralsight course, by Andrew Mallett, covers many of the same topics that we have learned here, but also gives much more detail about topics such as XFS, btrfs, RAID, and LVM.
+
+### More Linux commands to inspect hardware (BinaryTides)
+
+The BinaryTides article on [16 commands to check hardware information on Linux](http://www.binarytides.com/linux-commands-hardware-info/) gives a very comprehensive list of ways to explore your Linux computer's hardware.
