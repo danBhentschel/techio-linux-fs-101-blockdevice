@@ -25,8 +25,9 @@ About 45 minutes
 This course is stored in a GitHub repository. The link is at the top of this page. You can see how the course was created, and if you have any recommendations for improvement, feel free to fork the repository and create a pull request!
 
 ## Current Course Version
-1.1
+1.2
 
 ## Course Revision History
+2017-09-08 - Add a link to BinaryTides on What's Next page<br />
 2017-08-23 - Migrated to GitHub<br />
 2017-08-16 - Published
